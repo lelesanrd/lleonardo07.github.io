@@ -1,0 +1,44 @@
+[
+  {
+    "projectName": "abrt",
+    "projectDescription": "Automatic bug detection and reporting tool",
+    "projectRepository": "https://github.com/abrt",
+    "projectWebsite": "https://abrt.readthedocs.org/en/latest/",
+    "category": "Development"
+  },
+  {
+    "projectName": "AeroGear",
+    "projectDescription": "Making cross-platform enterprise mobile development easy",
+    "projectRepository": "https://github.com/aerogear",
+    "projectWebsite": "https://aerogear.org/",
+    "category": "Development"
+  },
+  {
+    "projectName": "Apache Tomcat",
+    "projectDescription": "An open source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies",
+    "projectRepository": "https://github.com/apache/tomcat",
+    "projectWebsite": "https://tomcat.apache.org/",
+    "category": "Development"
+  },
+  {
+    "projectName": "Avocado",
+    "projectDescription": "A testing framework with benefits.",
+    "projectRepository": "https://github.com/avocado-framework",
+    "projectWebsite": "https://avocado-framework.github.io/",
+    "category": "Development"
+  },
+  {
+    "projectName": "Tendrl",
+    "projectDescription": "Unified Storage Manager",
+    "projectRepository": "https://github.com/Tendrl",
+    "projectWebsite": "http://tendrl.org/",
+    "category": "Storage"
+  },
+  {
+    "projectName": "Keylime",
+    "projectDescription": "Bootstrapping and Maintaining Trust in the Cloud",
+    "projectRepository": "https://github.com/keylime",
+    "projectWebsite": "https://keylime.github.io/",
+    "category": "Operations"
+  }
+]
