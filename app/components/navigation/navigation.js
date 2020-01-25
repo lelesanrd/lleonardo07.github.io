@@ -9,7 +9,7 @@ import styles from "./navigation.scss";
 // Images
 import logo from "../../public/img/redhat-logo-retina.png";
 
-export default angular.module("rhGitHub.navigation", [])
+export default angular.module("lleonardo07.navigation", [])
     .component("navigation", {
         template: require("./navigation.html"),
         bindings: {

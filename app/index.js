@@ -13,16 +13,16 @@ import navigation from "./components/navigation/navigation";
 import universalFooter from "./components/universalfooter/universalfooter";
 
 // Services
-angular.module("rhGitHub", [
+angular.module("lleonardo07", [
     "ngRoute",
-    "rhGitHub.navigation",
-    "rhGitHub.main",
-    "rhGitHub.universalfooter"
+    "lleonardo07.navigation",
+    "lleonardo07.main",
+    "lleonardo07.universalfooter"
 ])
 .config(["$locationProvider", "$routeProvider", ($locationProvider, $routeProvider) => {
     $locationProvider.hashPrefix("!");
     $routeProvider.otherwise({redirectTo: "/main"});
 }])
-.controller("rhGitHubCtrl", ["$scope", "$location", function($scope, $location) {
+.controller("lleonardo07Ctrl", ["$scope", "$location", function($scope, $location) {
     $scope.location = $location.$$path;
 }]);

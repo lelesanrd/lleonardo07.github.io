@@ -10,7 +10,7 @@ import links from "../../data/footerLinks";
 import logo from "../../public/img/redhat-logo-dark-retina.png";
 import summit from "../../public/img/logo-summit.png";
 
-export default angular.module("rhGitHub.universalfooter", [])
+export default angular.module("lleonardo07.universalfooter", [])
   .component("universalfooter", {
     template: require("./universalfooter.html"),
     controller: "universalfooterCtrl"

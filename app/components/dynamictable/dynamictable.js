@@ -6,7 +6,7 @@ import styles from "./dynamictable.scss";
 // Data
 import projects from "../../data/projects";
 
-export default angular.module("rhGitHub.dynamictable", [])
+export default angular.module("lleonardo07.dynamictable", [])
     .component("dynamictable", {
         template: require("./dynamictable.html"),
         controller: "dynamictableCtrl"

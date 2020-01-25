@@ -24,14 +24,14 @@ import card from "../../components/card/card";
 import group from "../../components/group/group";
 import dynamictable from "../../components/dynamictable/dynamictable";
 
-export default angular.module("rhGitHub.main", [
+export default angular.module("lleonardo07.main", [
     "ngRoute",
-    "rhGitHub.hero",
-    "rhGitHub.band",
-    "rhGitHub.bandheader",
-    "rhGitHub.card",
-    "rhGitHub.group",
-    "rhGitHub.dynamictable"
+    "lleonardo07.hero",
+    "lleonardo07.band",
+    "lleonardo07.bandheader",
+    "lleonardo07.card",
+    "lleonardo07.group",
+    "lleonardo07.dynamictable"
   ])
   .config(["$routeProvider", ($routeProvider) => {
     $routeProvider.when("/main", {
